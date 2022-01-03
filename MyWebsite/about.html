@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Hillel Klugerman</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/about.css" />
+    <script src="js/about.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">HK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h2 class="text-center summarytitle">About Me</h2>
+    <div class="text-center">
+      <p class="summary text-center">
+        Who is Hillel Klugerman? I am a trained fullstack developer, trained at
+        the HackerU bootcamp and have been working on my skills ever since.
+        (Check out the solar system on the home page and click around a bit.) I
+        am extremely focused and a quick learner and I would love to share my
+        skills with you.
+      </p>
+    </div>
+    <div class="skills text-center">
+      <div class="row">
+        <div class="col-12"><h2>Skills</h2></div>
+      </div>
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-2 frontend">
+          <h4>Frontend</h4>
+          <h5>HTML</h5>
+          <h5>CSS</h5>
+          <h5>JavaScript</h5>
+          <h5>ReactJS</h5>
+          <h5>VueJS</h5>
+        </div>
+        <div class="col-2 backend">
+          <h4>Backend</h4>
+          <h5>NodeJS</h5>
+          <h5>ExpressJS</h5>
+        </div>
+        <div class="col-2 database">
+          <h4>Databases</h4>
+          <h5>MongoDB</h5>
+          <h5>MySQL</h5>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2>Skills in Progress</h2>
+          <h5>PHP</h5>
+          <h5>AngularJS</h5>
+          <h5>Python</h5>
+          <h5>C++</h5>
+          <h5>Wordpress</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="examples">
+      <h2 class="text-center">Examples of my work</h2>
+      <div class="websites">
+        <div>
+          <!-- Slideshow container -->
+          <p class="text-center gamerviewtext">
+            A posting website called the Gamer View made with React.<br />
+            Features: sign in, sign up, logout, posting and tagging<br />
+            Everything is stored in a database using MongoDB and NodeJS<br />
+            <a href="https://testsite1.d1y4mj8z76xkqp.amplifyapp.com/">
+              view website here</a
+            >
+          </p>
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides slide1 fade">
+              <div class="numbertext">1 / 2</div>
+              <img src="assets/images/GamerViewHome.png" style="width: 100%" />
+              <div class="text">Home Page of The Gamer View</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 2</div>
+              <img
+                src="assets/images/GamerViewSignUp.png"
+                style="width: 100%"
+              />
+              <div class="text">Sign Up page for The Gamer View</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+        <div>
+          <p class="text-center mardigrastext">
+            My first website. An information website about Mardi Gras made with
+            HTML, CSS, Bootstrap, and JavaScript.
+          </p>
+          <img
+            src="assets/images/mardigras.png"
+            alt="Mardigras Website homepage"
+            class="mardigras"
+          />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="contact">
+        <span> Want to get in touch? </span>
+        <div>
+          Email:<a href="mailto:hillelklugerman@gmail.com"
+            >hillelklugerman@gmail.com</a
+          >
+        </div>
+        <div>Phone Number:<a href="tel:+972586363692">+972-58-6363692</a></div>
+        <div>
+          linkedIn:<a href="https://www.linkedin.com/in/hillelklugerman"
+            >linkedin.com/in/hillelklugerman</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

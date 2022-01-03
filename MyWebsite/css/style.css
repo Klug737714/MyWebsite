@@ -1,0 +1,44 @@
+body {
+  background-color: lightblue;
+  margin: 0;
+}
+nav {
+  z-index: 1;
+}
+.name {
+  background-color: #000;
+  position: relative;
+  top: -10%;
+  display: flex;
+  color: white;
+  width: 100%;
+  z-index: 0;
+}
+.name-english {
+  position: relative;
+  left: 1%;
+}
+.name-english a:link {
+  text-decoration: none;
+}
+.name-hebrew {
+  position: absolute;
+  right: 1%;
+  text-align: right;
+}
+.name-hebrew a:link {
+  text-decoration: none;
+}
+canvas {
+  width: 100%;
+  height: 70vh;
+  z-index: -1;
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
